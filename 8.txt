@@ -1,0 +1,14 @@
+def isPalindrome(s):
+    return s == s[::-1]
+s =  input("Enter String:\n")
+r =  input("Enter String:\n")
+ans = isPalindrome(s)
+num = isPalindrome(r)
+if ans:
+    print("string is Palindrome")
+else:
+    print("string not is Palindrome")
+if num:
+    print("integer is Palindrome ")
+else:
+    print("integer not is Palindrome")
